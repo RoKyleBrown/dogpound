@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "good-dog";
+    src: url('./GOODDC__.TTF');
+}
+
+#logo {
+    color: green;
+    font-family: "good-dog";
+}
