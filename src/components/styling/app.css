@@ -3,7 +3,42 @@
     src: url('./GOODDC__.TTF');
 }
 
+#nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    padding: 7px 0 7px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#logo-contain {
+    width: 500px;
+}
+
 #logo {
     color: green;
     font-family: "good-dog";
+    font-size: 35px;
+    margin: 0;
 }
+
+/* mobile */
+@media only screen and (max-width: 500px){
+    #logo-contain {
+        width: 100%;
+    }
+
+    #logo {
+        margin-left: 12px;
+    }
+
+}
+
+/* windows desktop */
+@media only screen and (min-width: 2000px){
+    #logo-contain {
+        width: 1000px;
+    }
+}
+

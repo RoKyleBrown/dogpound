@@ -6,7 +6,11 @@ import "./styling/app.css"
 
 const App = () => (
     <div id="app">
-        <h1 id="logo">Dogpound</h1>
+        <div id="nav">
+            <div id="logo-contain">
+                <h1 id="logo">Dogpound</h1>
+            </div>
+        </div>
         <Switch>
             <Route exact path="/" component={DogsIndexContainer} />
         </Switch>
