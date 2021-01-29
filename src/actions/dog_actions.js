@@ -1,10 +1,10 @@
 import * as DogsApiUtil from '../util/dogs_api_util';
 
-export const RECIEVE_NINE_DOGS = `RECEIVE_NINE_DOGS`;
+export const RECIEVE_TEN_DOGS = `RECEIVE_TEN_DOGS`;
 
 const receiveDogs = dogs => {
     return {
-        type: RECIEVE_NINE_DOGS,
+        type: RECIEVE_TEN_DOGS,
         dogs
     }
 }

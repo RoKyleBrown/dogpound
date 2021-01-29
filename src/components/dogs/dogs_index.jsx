@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import { connectAdvanced } from 'react-redux';
 import $ from 'jquery';
 
-let dogPics = [];
+let dogPics = {};
 
 const DogsIndex = (props) => {
-    let bottomFlag = false;
+
     const [scrollBottom, setScrollBottom] = useState(false);
     
 
@@ -18,10 +18,13 @@ const DogsIndex = (props) => {
     }, [scrollBottom]);
 
     const loadPage = () => {
-        debugger;
+
         if (props.dogs !== undefined){
             props.dogs.forEach( (dog) =>{
-                dogPics.push(dog);
+                let dogUrl = dog.split("\/");
+                let dogFile = dogUrl[dogUrl.length-1];
+                let breed = dogUrl[dogUrl.length-2];
+                if (!dogPics[dogFile]) dogPics[dogFile] = [breed, dog];
             })
         }
     };
@@ -38,15 +41,15 @@ const DogsIndex = (props) => {
     });
 
     loadPage();
-    
+    debugger;
     if (dogPics === []) {
         return null;
     } else {
         return(
         <div>
-            {dogPics.map( (dog, i) =>
+            {Object.values(dogPics).map( (dog, i) =>
                 
-                <img className={`dog${i}`} src={dog} key={i} alt=""/>
+                <img className={`dog${i}`} src={dog[1]} key={i} alt=""/>
                 
                 )}
         </div>

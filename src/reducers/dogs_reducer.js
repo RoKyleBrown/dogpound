@@ -1,5 +1,5 @@
 import {
-    RECIEVE_NINE_DOGS
+    RECIEVE_TEN_DOGS
 } from '../actions/dog_actions';
 
 const DogsReducer = (oldState, action) => {
@@ -8,7 +8,7 @@ const DogsReducer = (oldState, action) => {
     let nextState = Object.assign({}, oldState);
 
     switch (action.type) {
-        case RECIEVE_NINE_DOGS:
+        case RECIEVE_TEN_DOGS:
             return action.dogs;
     
         default:
