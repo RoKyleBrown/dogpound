@@ -8,12 +8,16 @@
     position: fixed;
     width: 100%;
     padding: 7px 0 7px 0;
+    min-height: 35px;
     display: flex;
     justify-content: center;
+    border-bottom: rgb(163, 158, 158) 1px solid;
 }
 
 #logo-contain {
     width: 500px;
+    z-index: 2;
+    position: absolute;
 }
 
 #logo {
@@ -21,6 +25,32 @@
     font-family: "good-dog";
     font-size: 35px;
     margin: 0;
+}
+
+#nav-button-contain {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    min-height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#nav-buttons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-buttons ul {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    margin-right: 7px;
+}
+
+#nav-buttons li {
+    margin: 0 7px 0 7px;
 }
 
 /* mobile */
@@ -41,4 +71,3 @@
         width: 1000px;
     }
 }
-

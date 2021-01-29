@@ -1,14 +1,14 @@
 import {
-    RECIEVE_TEN_DOGS
+    RECIEVE_SOME_DOGS
 } from '../actions/dog_actions';
 
-const DogsReducer = (oldState, action) => {
+const SomeDogsReducer = (oldState, action) => {
+    
     Object.freeze(oldState);
     oldState = Object.assign({}, oldState);
-    let nextState = Object.assign({}, oldState);
 
     switch (action.type) {
-        case RECIEVE_TEN_DOGS:
+        case RECIEVE_SOME_DOGS:
             return action.dogs;
     
         default:
@@ -16,4 +16,4 @@ const DogsReducer = (oldState, action) => {
     }
 }
 
-export default DogsReducer;
+export default SomeDogsReducer;

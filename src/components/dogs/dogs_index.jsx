@@ -1,9 +1,8 @@
 import React from 'react';
-import { fetchDogs } from '../../actions/dog_actions';
 import { useEffect, useState } from 'react';
-import { connectAdvanced } from 'react-redux';
 import $ from 'jquery';
 import '../styling/dogs_index.css'
+import BreedsDropdownContainer from "./breeds_dropdown_container";
 
 let dogPics = {};
 
@@ -14,7 +13,7 @@ const DogsIndex = (props) => {
 
 
     useEffect(() => {
-        props.fetchDogs();
+        props.fetchTenDogs();
         loadPage();
     }, [scrollBottom]);
 
@@ -45,9 +44,16 @@ const DogsIndex = (props) => {
     
         return(
         <div className="gallery">
+                <div className="filter-dropdown-contain">
+                    <div className="dropdown-container">
+                        <div className="filter-dropdown-a">
+                            <BreedsDropdownContainer />
+                        </div>
+                    </div>
+                </div>
             {Object.values(dogPics).map( (dog, i) =>
                 
-                <div id="center-dog">
+                <div id="center-dog" key={i}>
                     <img className={`dog${i} doggie`} src={dog[1]} key={i} alt={dog[0]}/>
                 </div>
                 
