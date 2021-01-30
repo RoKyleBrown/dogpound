@@ -1,15 +1,18 @@
 import DogsIndex from './dogs_index';
 import { connect } from 'react-redux';
-import { fetchTenDogs } from '../../actions/dog_actions';
+import { fetchSomeDogs } from '../../actions/dog_actions';
 
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state, ownProps) => {
     
-    return {dogs: state.dogs.message}
+    return {
+        dogs: state.dogs.message,
+        history: ownProps.history 
+    }
 }
 
 const mapDispatchToProps = (dispatch) => ({
-    fetchTenDogs: dogs => dispatch(fetchTenDogs(dogs))
+    fetchSomeDogs: dogs => dispatch(fetchSomeDogs(dogs))
 })
 
 export default connect (mapStateToProps, mapDispatchToProps)(DogsIndex);

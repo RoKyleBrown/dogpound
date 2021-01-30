@@ -37,8 +37,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 30vw;
+    min-width: 95px;
     align-items: flex-start;
     background-color: violet;
+    border-radius: 9px;
+    transform: translateX(-2vw);
+    box-shadow: 5px 12px 15px 1px rgba(15, 15, 15, 0.2)
 }
 
 #center-dog {
@@ -54,6 +58,9 @@ body {
     #center-dog {
         width: 100%;
     }
+    .filter-dropdown-b {
+        min-width: none;
+    }
 }
 
 /* windows desktop */
@@ -67,4 +74,11 @@ body {
     object-fit: cover;
     width: inherit;
     height: auto;
+}
+
+/* filter dropdown responsivenes */
+@media only screen and (min-width: 564px) and (max-width: 748px) {
+    .filter-dropdown-b {
+        min-width: 240px;
+    }
 }

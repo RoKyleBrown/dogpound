@@ -6,14 +6,13 @@ import BreedsDropdownContainer from "./breeds_dropdown_container";
 
 let dogPics = {};
 
+
 const DogsIndex = (props) => {
 
     const [scrollBottom, setScrollBottom] = useState(0);
-    
-
 
     useEffect(() => {
-        props.fetchTenDogs();
+        props.fetchSomeDogs();
         loadPage();
     }, [scrollBottom]);
 
@@ -29,8 +28,17 @@ const DogsIndex = (props) => {
         }
     };
 
+    const menu = () => {
+
+        return (
+            <div className="filter-dropdown-a" >
+                    <BreedsDropdownContainer history={props.history} />
+            </div>
+        )
+    }
+
     window.addEventListener("scroll", () => {
-        if ($(window).scrollTop() + $(window).height() == $(document).height()){
+        if ($(window).scrollTop() + $(window).height() === $(document).height()){
             if (scrollBottom === 0){
                 setScrollBottom(1);
             } else {
@@ -46,9 +54,7 @@ const DogsIndex = (props) => {
         <div className="gallery">
                 <div className="filter-dropdown-contain">
                     <div className="dropdown-container">
-                        <div className="filter-dropdown-a">
-                            <BreedsDropdownContainer />
-                        </div>
+                            {menu()}
                     </div>
                 </div>
             {Object.values(dogPics).map( (dog, i) =>

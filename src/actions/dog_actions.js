@@ -18,8 +18,8 @@ const receiveAllDogs = allDogs => {
 }
 
 
-export const fetchTenDogs = () => dispatch => {
-    return DogsApiUtil.fetchTenDogs()
+export const fetchSomeDogs = () => dispatch => {
+    return DogsApiUtil.fetchSomeDogs()
         .then( dogs => dispatch(receiveTenDogs(dogs)))
 }
 
