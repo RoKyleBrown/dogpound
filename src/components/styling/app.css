@@ -28,7 +28,7 @@
     font-family: "good-dog";
     font-size: 35px;
     margin: 0;
-    color: green;
+    color: #f25453;
     cursor: pointer;
 }
 
@@ -53,19 +53,20 @@
 
 #nav-buttons ul {
     display: flex;
+    align-items: center;
     margin: 0;
     list-style: none;
-    margin-right: 7px;
+    margin-right: 12px;
 }
 
 #nav-buttons li {
-    margin: 0 7px 0 7px;
+    margin: 0 12px 0 12px;
     cursor: pointer;
 }
 
-#nav-buttons a {
-    text-decoration: none;
-    color: black;
+#nav-buttons div:first-of-type {
+    display: flex;
+    align-items: center;
 }
 
 #arrow-contain {
@@ -96,6 +97,33 @@
     position: absolute;
     border-bottom: 8px solid violet;
     }
+
+
+.filter-a, .filter-b {
+    height: 32px;
+    width: 32px;
+}
+
+.filter-b, .filter-a-after {
+    display: none;
+}
+
+.filter-b-after {
+    display: block;
+}
+
+.home-a, .home-b {
+    height: 32px;
+    width: 32px;
+}
+
+.home-b, .home-a-after {
+    display: none;
+}
+
+.home-b-after {
+    display: block;
+}
 
 /* mobile */
 @media only screen and (max-width: 700px){

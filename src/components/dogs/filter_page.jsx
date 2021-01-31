@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import $ from 'jquery';
 import '../styling/dogs_index.css';
 import BreedsDropdownContainer from "./breeds_dropdown_container";
+import { highlightPoodle } from "./exported_functions/nav_bar";
 
 let dogPics = {};
 let allPics = {};
@@ -12,6 +13,7 @@ const FilterPage = (props) => {
 
     useEffect(() => {
         props.fetchAllDogs();
+        highlightPoodle();
     }, [])
 
     useEffect(() => {
@@ -58,8 +60,14 @@ const FilterPage = (props) => {
             
             let loadedPics = Object.values(dogPics);
             let totalPics = Object.values(allPics);
-            if (loadedPics.length <= 1) props.fetchSomeDogs();
-            if (!picLoaded && (loadedPics.length !== totalPics.length)) {
+            let app = document.getElementById("app");
+            let stillLoading = loadedPics.length !== totalPics.length;
+           
+
+            if (app.offsetHeight <= window.outerHeight && stillLoading){
+                props.fetchSomeDogs();
+            }
+            if (!picLoaded && (stillLoading)) {
                 props.fetchSomeDogs();
             } 
         }

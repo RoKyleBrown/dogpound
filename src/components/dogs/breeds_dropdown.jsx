@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import {  dropdown } from './exported_functions/nav_bar';
+import {  dropdown, highlightPoodle } from './exported_functions/nav_bar';
 
 let breedSet = new Set();
 
@@ -25,11 +25,11 @@ const BreedsDropdown = (props) => {
     return (
         <ul>
             {Array.from(breedSet).map( (breed, i) => 
-                <li className={`breed${i}`}
+                <li className={`breed${i} breed-item`}
                     onClick={() => {
-                        
                         props.history.push(`/breeds/${breed}`)
                         dropdown();
+                        highlightPoodle();
                         window.location.reload();
                     }} 
                     key={i}>{breed}</li>

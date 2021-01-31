@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import $ from 'jquery';
 import '../styling/dogs_index.css'
 import BreedsDropdownContainer from "./breeds_dropdown_container";
+import { highlightHouse } from './exported_functions/nav_bar';
 
 let dogPics = {};
 
@@ -10,6 +11,10 @@ let dogPics = {};
 const DogsIndex = (props) => {
 
     const [scrollBottom, setScrollBottom] = useState(0);
+
+    useEffect(() => {
+        highlightHouse();
+    }, []);
 
     useEffect(() => {
         props.fetchSomeDogs();
