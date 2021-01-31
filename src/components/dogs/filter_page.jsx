@@ -92,8 +92,10 @@ const FilterPage = (props) => {
         <div className="gallery">
             <div className="filter-dropdown-contain">
                 <div className="dropdown-container">
-                    <div className="filter-dropdown-a">
-                        <BreedsDropdownContainer history={props.history} />
+                    <div className="feather">
+                        <div className="filter-dropdown-a">
+                            <BreedsDropdownContainer history={props.history} />
+                        </div>
                     </div>
                 </div>
             </div>

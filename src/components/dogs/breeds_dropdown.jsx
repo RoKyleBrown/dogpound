@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import {  dropdown, highlightPoodle } from './exported_functions/nav_bar';
+import "../styling/breeds_dropdown.css"
 
 let breedSet = new Set();
 
@@ -32,7 +33,10 @@ const BreedsDropdown = (props) => {
                         highlightPoodle();
                         window.location.reload();
                     }} 
-                    key={i}>{breed}</li>
+                    key={i}>
+                        <div>{`#${breed}`}</div>
+                        <div id="line"></div>
+                </li>
                 )}
         </ul>
     )

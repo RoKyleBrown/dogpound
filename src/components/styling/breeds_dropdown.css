@@ -1,0 +1,35 @@
+.breed-item {
+    color: #f25453;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+
+#line {
+    border-bottom: rgba(255, 255, 255, 0.7) 2px solid;
+    width: 25vw;
+    /* min-width: 80px; */
+    height: 15px;
+    margin-bottom: 12px;
+}
+
+/* 3.5 vw */
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+    .breed-item {
+        font-size: 3vw;
+    }
+
+    #line {
+        min-width: 0;
+        width: 15vw;
+    }
+}
+
+/* line responsivenes */
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+    #line {
+        width: 20vw;
+    }
+}

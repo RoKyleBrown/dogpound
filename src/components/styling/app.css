@@ -95,7 +95,7 @@
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     position: absolute;
-    border-bottom: 8px solid violet;
+    border-bottom: 8px solid rgba(249, 249, 249, .97);
     }
 
 

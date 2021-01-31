@@ -36,8 +36,10 @@ const DogsIndex = (props) => {
     const menu = () => {
 
         return (
-            <div className="filter-dropdown-a" >
-                    <BreedsDropdownContainer history={props.history} />
+            <div className="feather">
+                <div className="filter-dropdown-a" >
+                            <BreedsDropdownContainer history={props.history} />
+                </div>
             </div>
         )
     }
