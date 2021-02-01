@@ -1,7 +1,4 @@
 
-/* body {
-    background-image: url(../styling/black\ and\ white\ basket\ weave\ seaamless\ pattern\ vector.svg);
-} */
 
 .pre-gallery{display: none;}
 
@@ -39,7 +36,6 @@
     margin-top: -23px;
     display: flex;
     justify-content: flex-end;
-     /* pointer-events: none; */
 }
 
 .filter-dropdown-contain-b{

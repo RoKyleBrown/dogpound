@@ -6,6 +6,7 @@ import BreedsDropdownContainer from "./breeds_dropdown_container";
 import { deselectHouse, highlightPoodle, listenForClickOut } from "./exported_functions/nav_bar";
 import { preloadVid, waitTillLoaded } from "./exported_functions/preload";
 import { shareMenu, email } from "./exported_functions/email";
+import _ from 'lodash';
 
 let dogPics = {};
 let allPics = {};
@@ -18,6 +19,7 @@ const FilterPage = (props) => {
         highlightPoodle();
         waitTillLoaded();
     }, [])
+    
 
     useEffect(() => {
         props.fetchSomeDogs();
@@ -76,7 +78,7 @@ const FilterPage = (props) => {
         }
     };
 
-    window.addEventListener("scroll", () => {
+    window.addEventListener("scroll", _.throttle(() => {
         
         if ($(window).scrollTop() + $(window).height() === $(document).height()) {
             if (scrollBottom === 0) {
@@ -86,7 +88,7 @@ const FilterPage = (props) => {
             }
 
         }
-    });
+    }, 300));
 
     loadAllDogs();
     loadPage();

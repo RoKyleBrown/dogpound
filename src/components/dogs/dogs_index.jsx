@@ -6,6 +6,7 @@ import BreedsDropdownContainer from "./breeds_dropdown_container";
 import { deselectHouse, highlightHouse } from './exported_functions/nav_bar';
 import { email, shareMenu } from './exported_functions/email';
 import { preloadVid, waitTillLoaded } from './exported_functions/preload';
+import _ from "lodash";
 
 let dogPics = {};
 let allPics = {};
@@ -22,7 +23,8 @@ const DogsIndex = (props) => {
     }, []);
 
     useEffect(() => {
-        props.fetchSomeDogs();
+  
+        props.fetchSomeDogs();  
         loadPage();
     }, [scrollBottom]);
 
@@ -92,6 +94,7 @@ const DogsIndex = (props) => {
         }
     });
 
+    loadAllDogs();
     loadPage();
     
         return(
