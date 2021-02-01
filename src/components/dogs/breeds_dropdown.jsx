@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import {  dropdown, highlightPoodle } from './exported_functions/nav_bar';
 import "../styling/breeds_dropdown.css"
+import { waitTillLoaded } from './exported_functions/preload';
 
 let breedSet = new Set();
 
@@ -9,6 +10,7 @@ const BreedsDropdown = (props) => {
 
     useEffect( () => {
         props.fetchAllDogs();
+        waitTillLoaded();
     }, [])
 
     const loadDogs = () => {

@@ -5,6 +5,7 @@ import '../styling/dogs_index.css'
 import BreedsDropdownContainer from "./breeds_dropdown_container";
 import { deselectHouse, highlightHouse } from './exported_functions/nav_bar';
 import { email } from './exported_functions/email';
+import { preloadVid, waitTillLoaded } from './exported_functions/preload';
 
 let dogPics = {};
 
@@ -15,6 +16,7 @@ const DogsIndex = (props) => {
 
     useEffect(() => {
         highlightHouse();
+        waitTillLoaded();
     }, []);
 
     useEffect(() => {
@@ -59,42 +61,45 @@ const DogsIndex = (props) => {
     loadPage();
     
         return(
-        <div className="gallery">
-                <div className="filter-dropdown-contain">
-                    <div className="dropdown-container">
-                            {menu()}
-                    </div>
-                </div>
-            {Object.values(dogPics).map( (dog, i) =>
-                
-                
-                    <div id="center-dog" key={i}>
-                        <img className={`dog${i} doggie`} 
-                        src={dog[1]} key={i} alt={dog[0]} />
-                        <div id="module">
-                            <div className="burger-contain">
-                                <div >
-                                <img src="https://dogpound.s3-us-west-1.amazonaws.com/menu_icon.png"
-                                        onClick={() => {
-                                            email(dog[1]);
-                                        }}
-                                        alt="picture menu" width="25px"/>
-                                </div>
-                            </div>
-                                <div className="caption-contain">
-                                    <div id="caption-box">
-                                        <h3 onClick={() => {
-                                                props.history.push(`/breeds/${dog[0]}`)
-                                                deselectHouse();
-                                                window.location.reload();
-                                            }}>{`#${dog[0]}`}
-                                        </h3>
-                                    </div>
-                                </div>
+        <div>
+                {preloadVid()}
+            <div className="pre-gallery">
+                    <div className="filter-dropdown-contain">
+                        <div className="dropdown-container">
+                                {menu()}
                         </div>
                     </div>
-                
-                )}
+                {Object.values(dogPics).map( (dog, i) =>
+                    
+                    
+                        <div id="center-dog" key={i}>
+                            <img className={`dog${i} doggie`} 
+                            src={dog[1]} key={i} alt={dog[0]} />
+                            <div id="module">
+                                <div className="burger-contain">
+                                    <div >
+                                    <img src="https://dogpound.s3-us-west-1.amazonaws.com/menu_icon.png"
+                                            onClick={() => {
+                                                email(dog[1]);
+                                            }}
+                                            alt="picture menu" width="25px"/>
+                                    </div>
+                                </div>
+                                    <div className="caption-contain">
+                                        <div id="caption-box">
+                                            <h3 onClick={() => {
+                                                    props.history.push(`/breeds/${dog[0]}`)
+                                                    deselectHouse();
+                                                    window.location.reload();
+                                                }}>{`#${dog[0]}`}
+                                            </h3>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    
+                    )}
+            </div>
         </div>
     )
     

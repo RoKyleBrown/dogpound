@@ -2,7 +2,13 @@
     font-family: "good-dog";
     src: url('./GOODDC__.TTF');
 }
+#app {
+    background-image: url(../styling/black\ and\ white\ basket\ weave\ seaamless\ pattern\ vector.svg);
+}
 
+
+.pre-root{ display: none;}
+.root{ display: block;}
 #nav {
     background-color: white;
     position: fixed;
@@ -77,6 +83,7 @@
     min-height: 35px;
     margin-left: 200px;
     top: 42px;
+    pointer-events: none;
 }
 
 #center-arrow {
