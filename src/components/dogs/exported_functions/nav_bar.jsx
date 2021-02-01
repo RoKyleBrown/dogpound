@@ -27,7 +27,7 @@ export const highlightHouse = () => {
     $(".home-b").addClass("home-b-after");
 }
 
-const deselectHouse = () => {
+export const deselectHouse = () => {
     $(".home-a-after").addClass("home-a");
     $(".home-a-after").removeClass("home-a-after");
     $(".home-b-after").removeClass("home-b-after");

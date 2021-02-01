@@ -14,7 +14,7 @@ body {
     width: 100%;
     min-height: 70px;
     margin-right: 0;
-    z-index: 3;
+    z-index: 4;
     position: fixed;
     margin-top: -23px;
     display: flex;
@@ -41,7 +41,7 @@ body {
     width: 30vw;
     min-width: 95px;
     align-items: flex-start;
-    background-color: rgba(249, 249, 249, 0.97);
+    background-color: rgba(238, 238, 238, 0.97);
     border-radius: 9px;
     box-shadow: 5px 12px 15px 1px rgba(15, 15, 15, 0.2);
     overflow-y: scroll;
@@ -75,13 +75,81 @@ body {
 
 /* end dropdown */
 
+
 #center-dog {
     display: flex;
     justify-content: center;
     width: 500px;
-    /* min-height: 500px; */
     overflow: hidden;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-image: url(./afroweave4.svg);
+    background-color: rgba(172, 173, 178, .8);
 }
+
+.doggie {
+    z-index: 2;
+    position: relative;
+    max-width: 500px;
+    min-width: 500px;
+}
+
+#module {
+    height: 100%;
+    width: 100%;
+    transform: translateY(-40px);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.burger-contain {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.burger-contain div {
+    margin-right: 13px;
+    margin-top: 16.5px;
+    display: flex;
+    align-items: center;
+}
+
+.burger-contain img {
+    cursor: pointer;
+}
+
+.caption-contain {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#caption-box {
+    height: 50px;
+    width: 98%;
+    margin-bottom: 15px;
+    background-image: url(./dark_weave2.svg);
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#caption-box h3 {
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
 
 /* mobile */
 @media only screen and (max-width: 500px){
@@ -91,6 +159,12 @@ body {
     .filter-dropdown-b {
         min-width: none;
     }
+
+    .doggie {
+        width: 100%;
+        max-width: none;
+        min-width: none;
+    }
 }
 
 /* windows desktop */
@@ -98,12 +172,12 @@ body {
     #center-dog {
         width: 1000px;
     }
-}
-
-.doggie {
+    .doggie {
     object-fit: cover;
-    width: inherit;
+    min-width: 1000px;
+    max-width: 1000px;
     height: auto;
+}
 }
 
 /* filter dropdown responsivenes */

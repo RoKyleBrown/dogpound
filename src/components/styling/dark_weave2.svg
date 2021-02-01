@@ -1,0 +1,275 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" 
+xmlns:xlink="http://www.w3.org/1999/xlink" opacity="25%"
+width="100" height="100" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #aaaa;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #0a0a0a;
+        stroke: #0a0a0a;
+        stroke-width: 0.15px;
+        opacity:15%
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="1000" height="1000"/>
+    </clipPath>
+  </defs>
+  <title>dark_weave2</title>
+  <g>
+    <rect class="cls-1" width="1000" height="1000"/>
+    <g class="cls-2">
+      <g id="group_tmp_all" data-name="group tmp all">
+        <g id="group_all" data-name="group all">
+          <g id="shape_1" data-name="shape 1">
+            <path class="cls-3" d="M-162.5,30H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Z"/>
+          </g>
+          <g id="shape_1-2" data-name="shape 1">
+            <path class="cls-3" d="M-162.5,280H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Z"/>
+          </g>
+          <g id="shape_1-3" data-name="shape 1">
+            <path class="cls-3" d="M-162.5,530H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Z"/>
+          </g>
+          <g id="shape_1-4" data-name="shape 1">
+            <path class="cls-3" d="M-162.5,780H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Zm0,15H25v7.5H-162.5Z"/>
+          </g>
+          <g id="shape_1-5" data-name="shape 1">
+            <path class="cls-3" d="M220-162.5V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Z"/>
+          </g>
+          <g id="shape_1-6" data-name="shape 1">
+            <path class="cls-3" d="M220,87.5V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Z"/>
+          </g>
+          <g id="shape_1-7" data-name="shape 1">
+            <path class="cls-3" d="M162.5,220H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Z"/>
+          </g>
+          <g id="shape_1-8" data-name="shape 1">
+            <path class="cls-3" d="M30,162.5V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Z"/>
+          </g>
+          <g id="shape_1-9" data-name="shape 1">
+            <path class="cls-3" d="M87.5,30H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Z"/>
+          </g>
+          <g id="shape_1-10" data-name="shape 1">
+            <path class="cls-3" d="M220,337.5V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Z"/>
+          </g>
+          <g id="shape_1-11" data-name="shape 1">
+            <path class="cls-3" d="M162.5,470H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Z"/>
+          </g>
+          <g id="shape_1-12" data-name="shape 1">
+            <path class="cls-3" d="M30,412.5V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Z"/>
+          </g>
+          <g id="shape_1-13" data-name="shape 1">
+            <path class="cls-3" d="M87.5,280H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Z"/>
+          </g>
+          <g id="shape_1-14" data-name="shape 1">
+            <path class="cls-3" d="M220,587.5V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Z"/>
+          </g>
+          <g id="shape_1-15" data-name="shape 1">
+            <path class="cls-3" d="M162.5,720H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Z"/>
+          </g>
+          <g id="shape_1-16" data-name="shape 1">
+            <path class="cls-3" d="M30,662.5V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Z"/>
+          </g>
+          <g id="shape_1-17" data-name="shape 1">
+            <path class="cls-3" d="M87.5,530H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Z"/>
+          </g>
+          <g id="shape_1-18" data-name="shape 1">
+            <path class="cls-3" d="M220,837.5V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Z"/>
+          </g>
+          <g id="shape_1-19" data-name="shape 1">
+            <path class="cls-3" d="M162.5,970H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Zm0-15H-25v-7.5H162.5Z"/>
+          </g>
+          <g id="shape_1-20" data-name="shape 1">
+            <path class="cls-3" d="M30,912.5V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Z"/>
+          </g>
+          <g id="shape_1-21" data-name="shape 1">
+            <path class="cls-3" d="M87.5,780H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Zm0,15H275v7.5H87.5Z"/>
+          </g>
+          <g id="shape_1-22" data-name="shape 1">
+            <path class="cls-3" d="M30,1162.5V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Z"/>
+          </g>
+          <g id="shape_1-23" data-name="shape 1">
+            <path class="cls-3" d="M470-162.5V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Z"/>
+          </g>
+          <g id="shape_1-24" data-name="shape 1">
+            <path class="cls-3" d="M470,87.5V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Z"/>
+          </g>
+          <g id="shape_1-25" data-name="shape 1">
+            <path class="cls-3" d="M412.5,220H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Z"/>
+          </g>
+          <g id="shape_1-26" data-name="shape 1">
+            <path class="cls-3" d="M280,162.5V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Z"/>
+          </g>
+          <g id="shape_1-27" data-name="shape 1">
+            <path class="cls-3" d="M337.5,30H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Z"/>
+          </g>
+          <g id="shape_1-28" data-name="shape 1">
+            <path class="cls-3" d="M470,337.5V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Z"/>
+          </g>
+          <g id="shape_1-29" data-name="shape 1">
+            <path class="cls-3" d="M412.5,470H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Z"/>
+          </g>
+          <g id="shape_1-30" data-name="shape 1">
+            <path class="cls-3" d="M280,412.5V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Z"/>
+          </g>
+          <g id="shape_1-31" data-name="shape 1">
+            <path class="cls-3" d="M337.5,280H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Z"/>
+          </g>
+          <g id="shape_1-32" data-name="shape 1">
+            <path class="cls-3" d="M470,587.5V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Z"/>
+          </g>
+          <g id="shape_1-33" data-name="shape 1">
+            <path class="cls-3" d="M412.5,720H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Z"/>
+          </g>
+          <g id="shape_1-34" data-name="shape 1">
+            <path class="cls-3" d="M280,662.5V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Z"/>
+          </g>
+          <g id="shape_1-35" data-name="shape 1">
+            <path class="cls-3" d="M337.5,530H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Z"/>
+          </g>
+          <g id="shape_1-36" data-name="shape 1">
+            <path class="cls-3" d="M470,837.5V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Z"/>
+          </g>
+          <g id="shape_1-37" data-name="shape 1">
+            <path class="cls-3" d="M412.5,970H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Zm0-15H225v-7.5H412.5Z"/>
+          </g>
+          <g id="shape_1-38" data-name="shape 1">
+            <path class="cls-3" d="M280,912.5V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Z"/>
+          </g>
+          <g id="shape_1-39" data-name="shape 1">
+            <path class="cls-3" d="M337.5,780H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Zm0,15H525v7.5H337.5Z"/>
+          </g>
+          <g id="shape_1-40" data-name="shape 1">
+            <path class="cls-3" d="M280,1162.5V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Z"/>
+          </g>
+          <g id="shape_1-41" data-name="shape 1">
+            <path class="cls-3" d="M720-162.5V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Z"/>
+          </g>
+          <g id="shape_1-42" data-name="shape 1">
+            <path class="cls-3" d="M720,87.5V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Z"/>
+          </g>
+          <g id="shape_1-43" data-name="shape 1">
+            <path class="cls-3" d="M662.5,220H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Z"/>
+          </g>
+          <g id="shape_1-44" data-name="shape 1">
+            <path class="cls-3" d="M530,162.5V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Z"/>
+          </g>
+          <g id="shape_1-45" data-name="shape 1">
+            <path class="cls-3" d="M587.5,30H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Z"/>
+          </g>
+          <g id="shape_1-46" data-name="shape 1">
+            <path class="cls-3" d="M720,337.5V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Z"/>
+          </g>
+          <g id="shape_1-47" data-name="shape 1">
+            <path class="cls-3" d="M662.5,470H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Z"/>
+          </g>
+          <g id="shape_1-48" data-name="shape 1">
+            <path class="cls-3" d="M530,412.5V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Z"/>
+          </g>
+          <g id="shape_1-49" data-name="shape 1">
+            <path class="cls-3" d="M587.5,280H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Z"/>
+          </g>
+          <g id="shape_1-50" data-name="shape 1">
+            <path class="cls-3" d="M720,587.5V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Z"/>
+          </g>
+          <g id="shape_1-51" data-name="shape 1">
+            <path class="cls-3" d="M662.5,720H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Z"/>
+          </g>
+          <g id="shape_1-52" data-name="shape 1">
+            <path class="cls-3" d="M530,662.5V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Z"/>
+          </g>
+          <g id="shape_1-53" data-name="shape 1">
+            <path class="cls-3" d="M587.5,530H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Z"/>
+          </g>
+          <g id="shape_1-54" data-name="shape 1">
+            <path class="cls-3" d="M720,837.5V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Z"/>
+          </g>
+          <g id="shape_1-55" data-name="shape 1">
+            <path class="cls-3" d="M662.5,970H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Zm0-15H475v-7.5H662.5Z"/>
+          </g>
+          <g id="shape_1-56" data-name="shape 1">
+            <path class="cls-3" d="M530,912.5V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Z"/>
+          </g>
+          <g id="shape_1-57" data-name="shape 1">
+            <path class="cls-3" d="M587.5,780H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Zm0,15H775v7.5H587.5Z"/>
+          </g>
+          <g id="shape_1-58" data-name="shape 1">
+            <path class="cls-3" d="M530,1162.5V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Z"/>
+          </g>
+          <g id="shape_1-59" data-name="shape 1">
+            <path class="cls-3" d="M970-162.5V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Zm-15,0V25h-7.5V-162.5Z"/>
+          </g>
+          <g id="shape_1-60" data-name="shape 1">
+            <path class="cls-3" d="M970,87.5V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Zm-15,0V275h-7.5V87.5Z"/>
+          </g>
+          <g id="shape_1-61" data-name="shape 1">
+            <path class="cls-3" d="M912.5,220H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Z"/>
+          </g>
+          <g id="shape_1-62" data-name="shape 1">
+            <path class="cls-3" d="M780,162.5V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Zm15,0V-25h7.5V162.5Z"/>
+          </g>
+          <g id="shape_1-63" data-name="shape 1">
+            <path class="cls-3" d="M837.5,30H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Z"/>
+          </g>
+          <g id="shape_1-64" data-name="shape 1">
+            <path class="cls-3" d="M970,337.5V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Zm-15,0V525h-7.5V337.5Z"/>
+          </g>
+          <g id="shape_1-65" data-name="shape 1">
+            <path class="cls-3" d="M912.5,470H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Z"/>
+          </g>
+          <g id="shape_1-66" data-name="shape 1">
+            <path class="cls-3" d="M780,412.5V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Zm15,0V225h7.5V412.5Z"/>
+          </g>
+          <g id="shape_1-67" data-name="shape 1">
+            <path class="cls-3" d="M837.5,280H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Z"/>
+          </g>
+          <g id="shape_1-68" data-name="shape 1">
+            <path class="cls-3" d="M970,587.5V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Zm-15,0V775h-7.5V587.5Z"/>
+          </g>
+          <g id="shape_1-69" data-name="shape 1">
+            <path class="cls-3" d="M912.5,720H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Z"/>
+          </g>
+          <g id="shape_1-70" data-name="shape 1">
+            <path class="cls-3" d="M780,662.5V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Zm15,0V475h7.5V662.5Z"/>
+          </g>
+          <g id="shape_1-71" data-name="shape 1">
+            <path class="cls-3" d="M837.5,530H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Z"/>
+          </g>
+          <g id="shape_1-72" data-name="shape 1">
+            <path class="cls-3" d="M970,837.5V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Zm-15,0V1025h-7.5V837.5Z"/>
+          </g>
+          <g id="shape_1-73" data-name="shape 1">
+            <path class="cls-3" d="M912.5,970H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Zm0-15H725v-7.5H912.5Z"/>
+          </g>
+          <g id="shape_1-74" data-name="shape 1">
+            <path class="cls-3" d="M780,912.5V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Zm15,0V725h7.5V912.5Z"/>
+          </g>
+          <g id="shape_1-75" data-name="shape 1">
+            <path class="cls-3" d="M837.5,780H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Zm0,15H1025v7.5H837.5Z"/>
+          </g>
+          <g id="shape_1-76" data-name="shape 1">
+            <path class="cls-3" d="M780,1162.5V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Zm15,0V975h7.5v187.5Z"/>
+          </g>
+          <g id="shape_1-77" data-name="shape 1">
+            <path class="cls-3" d="M1162.5,220H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Z"/>
+          </g>
+          <g id="shape_1-78" data-name="shape 1">
+            <path class="cls-3" d="M1162.5,470H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Z"/>
+          </g>
+          <g id="shape_1-79" data-name="shape 1">
+            <path class="cls-3" d="M1162.5,720H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Z"/>
+          </g>
+          <g id="shape_1-80" data-name="shape 1">
+            <path class="cls-3" d="M1162.5,970H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Zm0-15H975v-7.5h187.5Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

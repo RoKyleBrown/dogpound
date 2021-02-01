@@ -11,7 +11,8 @@
     min-height: 35px;
     display: flex;
     justify-content: center;
-    border-bottom: rgb(163, 158, 158) 1px solid;
+    border-bottom: rgba(163, 158, 158, 0.4) 1px solid;
+    z-index: 45;
 }
 
 #logo-contain {
@@ -95,7 +96,7 @@
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
     position: absolute;
-    border-bottom: 8px solid rgba(249, 249, 249, .97);
+    border-bottom: 8px solid rgba(238, 238, 238, .97);
     }
 
 
