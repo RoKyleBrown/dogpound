@@ -39,6 +39,11 @@
     margin-top: -23px;
     display: flex;
     justify-content: flex-end;
+     /* pointer-events: none; */
+}
+
+.filter-dropdown-contain-b{
+    pointer-events: all;
 }
 
 .dropdown-container {
@@ -135,7 +140,7 @@
     justify-content: flex-end;
 }
 
-.burger-contain div {
+.burger {
     margin-right: 13px;
     margin-top: 16.5px;
     display: flex;
@@ -144,6 +149,30 @@
 
 .burger-contain img {
     cursor: pointer;
+}
+
+.share-menu-a {
+    display: none;
+}
+
+.share-menu-b {
+    height: 20px;
+    background-color: rgba(0, 0, 0, .85);
+    position: absolute;
+    border-radius: 4px;
+    padding: 0 2px 0 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 12px;
+    font-size: 10px;
+    color: white;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.share-menu-a img {
+    width: 12px;
 }
 
 .caption-contain {

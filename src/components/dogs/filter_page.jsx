@@ -3,8 +3,9 @@ import { useEffect, useState } from 'react';
 import $ from 'jquery';
 import '../styling/dogs_index.css';
 import BreedsDropdownContainer from "./breeds_dropdown_container";
-import { deselectHouse, highlightPoodle } from "./exported_functions/nav_bar";
+import { deselectHouse, highlightPoodle, listenForClickOut } from "./exported_functions/nav_bar";
 import { preloadVid, waitTillLoaded } from "./exported_functions/preload";
+import { shareMenu, email } from "./exported_functions/email";
 
 let dogPics = {};
 let allPics = {};
@@ -110,9 +111,18 @@ const FilterPage = (props) => {
                             src={dog[1]} key={i} alt={dog[0]} />
                         <div id="module">
                             <div className="burger-contain">
-                                <div>
-                                    <img src="https://dogpound.s3-us-west-1.amazonaws.com/menu_icon.png"
+                                <div className="burger" onClick={(e) => {
+                                    shareMenu(i);
+                                    }}>
+                                    <img className="burger-img" src="https://dogpound.s3-us-west-1.amazonaws.com/menu_icon.png"
                                         alt="picture menu" width="25px" />
+                                </div>
+                                <div 
+                                    className={`menu${i} share-menu-a`}
+                                    onClick={() => email(dog[1])}
+                                    >
+                                    <h3><span>
+                                        <img src="https://dogpound.s3-us-west-1.amazonaws.com/emailIcon.png" alt=""/></span> Share</h3>
                                 </div>
                             </div>
                             <div className="caption-contain">

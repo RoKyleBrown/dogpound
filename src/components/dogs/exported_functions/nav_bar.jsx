@@ -1,6 +1,7 @@
 import $ from 'jquery';
 import { useHistory } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
+import { shareMenuClosed } from './email';
 
 
 let dropOpen = false;
@@ -42,17 +43,19 @@ export const dropdown = () => {
         $(".arrow-up-a").addClass("arrow-up-b");
         highlightPoodle();
         deselectHouse();
+        $(".filter-dropdown-contain").addClass("filter-dropdown-contain-b");
         dropOpen = true;
     } else {
         $(".filter-dropdown-b").removeClass("filter-dropdown-b");
         $(".arrow-up-b").removeClass("arrow-up-b");
+        $(".filter-dropdown-contain-b").removeClass("filter-dropdown-contain-b");
         deslectPoodle();
         dropOpen = false;
     }
 };
 
 export const listenForClickOut = (e) => {
-
+    
     const el = document.querySelector(".filter-dropdown-b");
 
     let target = e.target.className;
@@ -60,8 +63,12 @@ export const listenForClickOut = (e) => {
 
     if (target === "filter-a" || target === "filter-a-after") return;
     if (target === "filter-b filter-b-after" || target === "filter-b filter-b-after") return;
+    if (target.includes("share-menu-b")) return;
+    if (target.includes("filter-dropdown-b") || target === "burger-img") return;
+    shareMenuClosed();
+
     if (!el) return;
-    if (target.includes("filter-dropdown-b")) return;
+    
 
     if (url[1] === "breeds") {
         dropdown();
@@ -72,6 +79,7 @@ export const listenForClickOut = (e) => {
     } else {
         dropdown();
     }
+    
 
 };
 
