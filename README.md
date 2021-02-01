@@ -31,8 +31,7 @@ Dogpound is a front end application that fetches dog data to create a user exper
                 props.fetchSomeDogs();
             } 
         }
-    };
-    
+    };    
     ```
     
-    Dealing with objects keeping track of data allowed screen for duplicates and keep track of breeds.
+    *Dealing with objects keeping track of data allowed screen for duplicates and keep track of breeds.
