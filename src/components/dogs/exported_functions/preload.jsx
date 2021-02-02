@@ -15,7 +15,7 @@ export const waitTillLoaded = () => {
 export const preloadVid = () => {
     return (<div className="preload">
                 <div className="vid">
-                    <video height="110px" width="110px"
+                    <video height="200px" width="200px"
                         src="https://dogpound.s3-us-west-1.amazonaws.com/bone.mp4"
                         autoPlay muted
                     >
