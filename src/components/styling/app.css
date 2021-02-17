@@ -58,6 +58,7 @@
     
 } 
 
+
 #nav-buttons ul {
     display: flex;
     align-items: center;
@@ -74,7 +75,7 @@
 #nav-buttons div:first-of-type {
     display: flex;
     align-items: center;
-}
+} 
 
 #arrow-contain {
     width: 500px;
