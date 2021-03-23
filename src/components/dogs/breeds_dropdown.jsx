@@ -17,7 +17,7 @@ const BreedsDropdown = (props) => {
         if (props.allDogs !== undefined) {
             props.allDogs.forEach((dog) => {
                 let dogUrl = dog.split("\/");
-                let breed = dogUrl[dogUrl.length - 2];
+                let breed = dogUrl[dogUrl.length - 2]; 
                 breedSet.add(breed);
             })
         }
