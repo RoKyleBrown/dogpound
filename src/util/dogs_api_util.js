@@ -12,4 +12,4 @@ export const fetchAllDogs = () => {
         url: `https://dog.ceo/api/breed/pug/images`,
         error: (err) => console.log(err)
     })
-} 
+}
