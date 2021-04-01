@@ -13,3 +13,11 @@ export const fetchAllDogs = () => {
         error: (err) => console.log(err)
     })
 }
+export const fetchByBread = (breed) => {
+    return $.ajax({
+        url: `https://dog.ceo/api/breed/${breed}/images`,
+        error: (err) => console.log(err)
+    })
+}
+
+//fetch by breed
